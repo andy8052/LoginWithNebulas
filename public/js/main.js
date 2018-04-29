@@ -1,21 +1,6 @@
-function checkNebpay() {
-    console.log("check nebpay")
-    try {
-        var NebPay = require("nebpay");
-
-        $("#search_value").attr("disabled", false)
-        $("#search").attr("disabled", false)
-
-    } catch (e) {
-        //alert ("Extension wallet is not installed, please install it first.")
-        $("#noExtension").removeClass("hide")
-    }
-}
-
 var dappAddress = "n1jCSsXYiRKWTurEF9pHZyPBd7X8bikVpcq";
 
 $("#submit_challenge").click(function () {
-    console.log("********* call smart contract by \"call\" *****************")
     var func = "authenticate"
     var args = "[" + $("#challenge").val() + ",\"" + $("#address").val() + "\"]"
 
@@ -46,21 +31,6 @@ $(document).ready(function () {
 
     $(".fullscreen").css("height", window_height)
     $(".fitscreen").css("height", fitscreen);
-
-
-//    console.log("check nebpay")
-//    try {
-//        var NebPay = require("nebpay");
-//
-//        $("#search_value").attr("disabled", false)
-//        $("#search").attr("disabled", false)
-//
-//    } catch (e) {
-//        alert("Extension wallet is not installed, please install it first.")
-//        $("#noExtension").removeClass("hide")
-//    }
-
-    // -------   Active Mobile Menu-----//
 
     $(".menu-bar").on('click', function (e) {
         e.preventDefault();

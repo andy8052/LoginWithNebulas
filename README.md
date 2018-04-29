@@ -9,4 +9,7 @@ Users will need to have [this extension](https://github.com/ChengOrangeJu/WebExt
 It is recommended that the site require a user to give their Nebulas public key on sign up or when activating Login With Nebulas for the first time.
 
 # Implementation
-I will be releasing an example website that uses Login With Nebulas in the coming days
+This is a very basic website that called the other Login With Nebulas calls. https://lwn-sample-site.firebaseapp.com/
+It can be seen on github [here](https://github.com/andy8052/LoginWithNebulasExampleSite)
+Use a different address when on that site and on this site to test the functionality
+Sorry it is very ugly :(
