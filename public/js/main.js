@@ -1,4 +1,4 @@
-var dappAddress = "n1jCSsXYiRKWTurEF9pHZyPBd7X8bikVpcq";
+var dappAddress = "n1sUEGwVbbPvuQrDZmtUYwCHsk6eRMvnJVg";
 
 $("#submit_challenge").click(function () {
     var func = "authenticate"
