@@ -1,7 +1,7 @@
 # LoginWithNebulas
 A 2FA Nebulas based login site
 
-Contract Address: n1jCSsXYiRKWTurEF9pHZyPBd7X8bikVpcq
+Contract Address: n1sUEGwVbbPvuQrDZmtUYwCHsk6eRMvnJVg
 
 # Use
 When implented on a website as a second layer of authentication, Login With Nebulas allows to used to safely login to their accounts by proving ownership of a Nebulas account.
